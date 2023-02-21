@@ -12,9 +12,8 @@
 body{
     background-color: white;
     font-family: 'Roboto', sans-serif;
-    /* min-height: 100vh; */
     padding-bottom: 3em;
-    /* position: relative; */
+    
 
 }
 
@@ -55,19 +54,6 @@ background-color: #BF09BE !important;
     }
 }
 
-
-.img_container1{
-
-    /* align-content: center; */
-    /* display: flex; */
-    /* flex-direction: row-reverse; */
-    /* width: 1500px; */
-    /* height: 550px; */
-
-
-}
-
-
 @media (min-width:600px) {
     .img_container1{
         width: 500px;
@@ -86,6 +72,13 @@ background-color: #BF09BE !important;
 }
 img {
     max-width: 100%;
+}
+.carousel-item img{
+    width: 100%;
+    height: 500px;
+}
+.carousel-caption h1{
+    color: #BF09BE;
 }
 
 .img_container2 {
@@ -106,12 +99,6 @@ img {
 
 h2{
     font-size: 4rem;
-    /* margin-top: 10; */
-    /* display: flex; */
-    /* justify-content:center; */
-    /* float: left; */
-    /* padding: 2rem; */
-    /* text-align: right; */
     flex-direction: row;
 
 
@@ -201,3 +188,21 @@ div {
 }
 
 
+.float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+}
+
+.my-float {
+    margin-top: 16px;
+}
