@@ -1,0 +1,33 @@
+@use "variables";
+.carousel-item img {
+    width: 100%;
+}
+
+@media (min-width:600px) {
+.carousel-item img {
+        height: 500px;
+    }
+}
+
+.carousel-caption h1 {
+    color:variables.$colorprincipal;
+}
+h2 {
+    font-size:variables.$sizesubtitulo;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:variables.$fuenteprimaria;
+
+}
+
+body {
+    background-color: white;
+    font-family: variables.$fuenteprimaria;
+    padding-bottom: 3em;
+
+
+}

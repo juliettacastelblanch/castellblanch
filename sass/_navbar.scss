@@ -1,0 +1,28 @@
+@use"variables";
+nav {
+    background-color:variables.$colorprincipal !important;
+}
+
+a {
+    color: variables.$colorterciario;
+}
+
+.nav-item {
+    margin-right: 80px;
+}
+
+.logo {
+    width: 10vw;
+    height: 10vh;
+}
+
+@media (max-width:991px) {
+    .nav-item {
+        margin-right: 0;
+    }
+
+    .logo {
+        width: 50vw;
+        height: 50vh;
+    }
+}

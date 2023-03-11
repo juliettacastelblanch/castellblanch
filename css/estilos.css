@@ -1,6 +1,6 @@
 
 
-
+/* 
 * {
     margin: 0;
     padding:0;
@@ -15,15 +15,12 @@ body{
     padding-bottom: 3em;
     
 
-}
-
-
-html{
-    font-size: 62,5%;
-}
+} */
 
 
 
+
+/* 
 nav{
 background-color: #BF09BE !important;
 }
@@ -48,8 +45,8 @@ background-color: #BF09BE !important;
         width: 50vw;
         height: 50vh;
     }
-}
-
+} */
+/* 
 @media (min-width:600px) {
     .img_container1{
         width: 500px;
@@ -68,67 +65,59 @@ background-color: #BF09BE !important;
 }
 img {
     max-width: 100%;
-}
-.carousel-item img{
+} */
+/* .carousel-item img{
     width: 100%;
     height: 500px;
 }
 .carousel-caption h1{
     color: #BF09BE;
-}
+} */
 
-.img_container2 {
-
-    
+/* .img_container2 {
     display: flex;
     flex-direction:row-reverse;
     width: 500px;
     height: 550px;
 
 
-}
+} */
 
 
-.boxFooter_redesSociales__title{
+/* .boxFooter_redesSociales__title{
+    
     font-size: 2rem;
-}
-
+} */
+/* 
 h2{
+    
     font-size: 4rem;
     flex-direction: row;
 
 
-}
+} */
 
 
 
 
-
+/* 
 .box__footer_logo{
     width: 100px;
     height: 100px;
-}
+} */
 
 /* footer */
 
+/* index.scss */
 :root {
     color: black;
 
 }
 
-header{
-    width: 100%;
-    height: 60px;
-    background: var(--color-esqueleto);
-}
 
-.cover{
-    width: 100%;
-        height: 500px;
-        background: var(--color-esqueleto);
-        margin-top: 20px;
-}
 
+
+/* 
 footer{
 width: 100%;
     padding: 50px 0px;
@@ -153,6 +142,7 @@ width: 100%;
 }
 
 .box__footer a {
+    
     margin-top: 10px;
     color: #BF09BE;
     font-weight: 600;
@@ -174,7 +164,7 @@ width: 100%;
     border: none;
     height: 1px;
     background-color: black;
-}
+} */
 
 div {
     justify-content: center;
@@ -183,7 +173,7 @@ div {
 
 }
 
-
+/* 
 .float {
     position: fixed;
     width: 60px;
@@ -195,10 +185,14 @@ div {
     border-radius: 50px;
     text-align: center;
     font-size: 30px;
-    box-shadow: 2px 2px 3px #999;
+
     z-index: 100;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
 }
 
 .my-float {
     margin-top: 16px;
-}
+} */

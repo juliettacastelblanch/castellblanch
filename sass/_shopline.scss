@@ -1,0 +1,29 @@
+@media (min-width:600px) {
+    .img_container1 {
+        width: 500px;
+    }
+
+    .flex_container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+
+    }
+
+    .column_reverse {
+        flex-direction: row-reverse;
+    }
+}
+
+img {
+    max-width: 100%;
+}
+
+.img_container2 {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 500px;
+    height: 550px;
+}
